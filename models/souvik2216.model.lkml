@@ -2,6 +2,7 @@ connection: "thelook"
 
 # include all the views
 include: "/views/**/*.view"
+include: "/Whatever.dashboard.lookml"
 
 datagroup: souvik2216_default_datagroup {
   # sql_trigger: SELECT MAX(id) FROM etl_log;;
