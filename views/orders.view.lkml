@@ -24,6 +24,16 @@ view: orders {
 
   dimension: status {
     type: string
+    # html: <p style="color: black; background-color: lightblue; font-size:100%; text-align:center">{{ linked_value }}</p>;;
+
+    # link: {
+
+    #   label: "testit"
+
+    #   url: "https://google.com"
+
+    # }
+    html: <img src="https://logo-core.clearbit.com/looker.com" /> ;;
     sql: ${TABLE}.status ;;
   }
 
